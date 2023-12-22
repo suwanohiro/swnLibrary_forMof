@@ -67,6 +67,17 @@ CSVData FileAction::ReadCSV(const std::string& currentFilePath) {
     return result;
 }
 
+JSON FileAction::ReadJSON(const std::string& currentFilePath)
+{
+    // ファイルを読み込む
+    std::string jsonstr = FileAction::Read(currentFilePath);
+
+    // JSON文字列をパース
+    JSON jobj = JSON::parse(jsonstr);
+
+    return jobj;
+}
+
 void FileAction::Write(const std::string& currentFilePath, const std::string& writestring, const std::string& fileReadMode) {
     // ファイルパスを変換
     // ファイルを開いて指定されたモードで書き込む
