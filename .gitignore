@@ -33,5 +33,8 @@
 
 
 /.vs
-/x64
-*/x64
+/.vscode
+*/Debug
+
+
+*.pdb
