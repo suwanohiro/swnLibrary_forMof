@@ -1,8 +1,12 @@
 ﻿#include <iostream>
-#include "../Library/swnLibrary.h"
-
+#include "swnLibrary.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::string path = "text.txt";
+
+    FileAction::WriteNew(path, "hello world");
+
+    std::string read = FileAction::Read(path);
+    std::cout << read;
 }
