@@ -16,15 +16,24 @@
     <Filter Include="Library">
       <UniqueIdentifier>{b6cc52e2-197f-490a-b9c9-4af9d3c1120a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Library\FileAction">
+      <UniqueIdentifier>{cc4669e2-90bc-4118-b34f-3abb69553fb9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="swnLibrary_forMof.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="..\Library\FileAction\FileAction.cpp">
+      <Filter>Library\FileAction</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Library\swnLibrary.h">
       <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\FileAction\FileAction.h">
+      <Filter>Library\FileAction</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
