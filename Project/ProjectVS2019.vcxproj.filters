@@ -22,6 +22,18 @@
     <Filter Include="swnLibrary\StringAction">
       <UniqueIdentifier>{cfeba38f-eb20-4b89-a06f-22dad746ca9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="swnLibrary\WebColor">
+      <UniqueIdentifier>{014381bf-50c2-4ac6-ad71-f9e18cad2e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="swnLibrary\Socket">
+      <UniqueIdentifier>{55fc8ba0-cafe-4874-bea4-56a7316e6f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="swnLibrary\Socket\Client">
+      <UniqueIdentifier>{1b388c62-c974-461a-a677-6e8596fdea6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="swnLibrary\Socket\Server">
+      <UniqueIdentifier>{b4c8a40a-9fa9-4361-9f01-e5e0c37e24ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
@@ -35,6 +47,15 @@
     </ClCompile>
     <ClCompile Include="..\Library\StringAction\StringAction.cpp">
       <Filter>swnLibrary\StringAction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Socket\Socket.cpp">
+      <Filter>swnLibrary\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Socket\Client\Client.cpp">
+      <Filter>swnLibrary\Socket\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Socket\Server\Server.cpp">
+      <Filter>swnLibrary\Socket\Server</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +73,18 @@
     </ClInclude>
     <ClInclude Include="..\Library\StringAction\StringAction.h">
       <Filter>swnLibrary\StringAction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\WebColor\WebColor.h">
+      <Filter>swnLibrary\WebColor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Socket\Socket.h">
+      <Filter>swnLibrary\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Socket\Client\Client.h">
+      <Filter>swnLibrary\Socket\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Socket\Server\Server.h">
+      <Filter>swnLibrary\Socket\Server</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
