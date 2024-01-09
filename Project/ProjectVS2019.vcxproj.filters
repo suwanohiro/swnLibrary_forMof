@@ -19,6 +19,9 @@
     <Filter Include="swnLibrary\FileAction">
       <UniqueIdentifier>{b1ff15b7-5548-4a09-95d1-e9591573bc8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="swnLibrary\StringAction">
+      <UniqueIdentifier>{cfeba38f-eb20-4b89-a06f-22dad746ca9e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="..\Library\FileAction\FileAction.cpp">
       <Filter>swnLibrary\FileAction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\StringAction\StringAction.cpp">
+      <Filter>swnLibrary\StringAction</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="..\Library\FileAction\json.hpp">
       <Filter>swnLibrary\FileAction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\StringAction\StringAction.h">
+      <Filter>swnLibrary\StringAction</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
