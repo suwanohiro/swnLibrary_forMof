@@ -34,6 +34,9 @@
     <Filter Include="swnLibrary\Socket\Server">
       <UniqueIdentifier>{b4c8a40a-9fa9-4361-9f01-e5e0c37e24ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="swnLibrary\Math">
+      <UniqueIdentifier>{dfbec5e2-255a-40d5-8df9-61bf4058af10}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="..\Library\Socket\Server\Server.cpp">
       <Filter>swnLibrary\Socket\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Math\Math.cpp">
+      <Filter>swnLibrary\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="..\Library\Socket\Server\Server.h">
       <Filter>swnLibrary\Socket\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Math\Math.hpp">
+      <Filter>swnLibrary\Math</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
